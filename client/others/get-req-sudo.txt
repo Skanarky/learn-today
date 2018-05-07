@@ -1,0 +1,33 @@
+-----------
+Udemy:
+1. API
+https://www.udemy.com/api-2.0/courses/?search=big+data?page_size=40
+
++
+
+2. Get URL and add it BELOW for LINK:
+https://www.udemy.com/{URL here}/
+
+
+-----------
+Coursera:
+1. API
+https://www.coursera.org/maestro/api/topic/list?full=1
+
++
+
+2. Get NAME from above and add below for LINK:
+
+https://www.coursera.org/courses?languages=en&query={NAME here - ALL LOWER CASE AND separated by PLUSES}&userQuery=computer+science
+
+
+-----------
+YouTube:
+1. API
+https://www.googleapis.com/youtube/v3/search?part=snippet&q=learn+{TO LOWER CASE SEPARATED BY PLUSES... blockchain}&type=video&key=AIzaSyBCHEOzAQaUxp1gUDedcMhATVe3YaIjxfM
+
++
+
+2. Get VIDEO ID from top search and add below for LINK:
+
+https://www.youtube.com/watch?v={VIDEO ID HERE}
