@@ -166,12 +166,12 @@ img {
 
 .buttons button {
     background-color: rgba(218, 238, 253, 0.95);
-    border-radius: 45%;
-    width: 86px;
+    border-radius: 30%;
+    width: 90px;
     height: 36px;
     font-weight: bold;
     text-align: center;
-    font-size: .335em;
+    font-size: .330em;
 }
 
 .buttons button:hover {
@@ -186,6 +186,7 @@ img {
     width: 86px;
     height: 36px;
     color: rgb(88, 88, 88, 0.9);
+    text-align: center;
 }
 
 .searches {
