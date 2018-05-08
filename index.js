@@ -6,6 +6,7 @@ const courseRouter = require("./routes/courses.js");
 const videoRouter = require("./routes/videos.js");
 
 const app = express();
+require("dotenv").config();
 const port = process.env.PORT || 3001;
 
 //middleware

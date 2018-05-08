@@ -5,7 +5,7 @@ const courseRouter = express.Router();
 const access = {
     auth: {
         username: "PRXxcMDxIV9Z4GoO5KhCeKC4WwI5XSEwjuygaNpW",
-        password: "PV7SFPRv1SqE84Vh27QCGk3A7o1Y82pjP5lxMDMYFiNL1DYz0nrV2QCSeKIMJDCptqKOeYqFQnCAIPfcnAQaDa94sq0MlyXqxfmkjWsvS9mhb6fi5WooTJZgOqDX4S9r"
+        password: process.env.UDEMY_PASS
     }
 };
 
