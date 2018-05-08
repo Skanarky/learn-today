@@ -166,8 +166,8 @@ img {
 
 .buttons button {
     background-color: rgba(218, 238, 253, 0.95);
-    border-radius: 30%;
-    width: 90px;
+    border-radius: 25%;
+    width: 91px;
     height: 36px;
     font-weight: bold;
     text-align: center;
