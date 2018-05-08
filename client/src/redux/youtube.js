@@ -30,12 +30,12 @@ const youtubeReducer = (state = initialState, action) => {
 
 export const getVideos = (searchWord) => {
     return dispatch => {
-        axios.get(`https://www.googleapis.com/youtube/v3/search?part=snippet&q=learn+${searchWord}&maxResults=40&type=video&key=AIzaSyBCHEOzAQaUxp1gUDedcMhATVe3YaIjxfM`)
+        axios.get(`/videos/${searchWord}`)
             .then(response => {
-                // console.log(response.data.items);
+                // console.log(response.data);
                 dispatch({
                     type: "GET_VIDEO",
-                    videos: response.data.items
+                    videos: response.data
                 });
             })
             .catch(err => {
