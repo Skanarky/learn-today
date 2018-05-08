@@ -167,11 +167,11 @@ img {
 .buttons button {
     background-color: rgba(218, 238, 253, 0.95);
     border-radius: 25%;
-    width: 91px;
+    width: 92px;
     height: 36px;
     font-weight: bold;
     text-align: center;
-    font-size: .330em;
+    font-size: .31em;
 }
 
 .buttons button:hover {
