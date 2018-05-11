@@ -7,7 +7,7 @@ const courseRouter = require("./routes/courses.js");
 const videoRouter = require("./routes/videos.js");
 
 const app = express();
-const port = process.env.PORT || 3001;
+const port = process.env.PORT;
 
 //middleware
 app.use(bodyParser.json());
