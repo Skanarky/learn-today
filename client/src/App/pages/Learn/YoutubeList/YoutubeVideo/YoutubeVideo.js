@@ -13,10 +13,10 @@ class YoutubeVideo extends React.Component {
             <div className="singleItem">
                 <Link to={urlVideo} target="_blank" className="nolineThree"><p>{title}</p></Link>
                 <Link to={urlVideo} target="_blank" className="nolineThree"><img src={url} alt={description} /></Link>
-                <div>
+                {/* <div>
                     <i className="fa fa-star"></i>
                     <i className="fa fa-heart"></i>
-                </div>
+                </div> */}
             </div>
         )
     }
