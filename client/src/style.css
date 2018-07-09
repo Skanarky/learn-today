@@ -135,7 +135,7 @@ p {
 }
 
 img {
-    border-radius: 25%;
+    border-radius: 25px;
     width: 260px;
     height: 146.3px;
 }
@@ -204,7 +204,7 @@ img {
     text-align: center;
     width: 90px;
     height: 30px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 ::placeholder {
