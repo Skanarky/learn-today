@@ -64,9 +64,9 @@ footer {
     color: rgb(88, 88, 88, 0.9);
     text-decoration-line: none;
     font-weight: bold;
-    padding-left: 5px;
-    padding-right: 5px;
-    font-size: 1em;
+    /* padding-left: 5px;
+    padding-right: 5px; */
+    font-size: 1.4em;
     text-transform: uppercase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 1px;
@@ -277,9 +277,9 @@ h1 {
 
 @media (max-width: 320px) {
     .noline {
-        padding-left: 2px;
-        padding-right: 2px;
-        font-size: 1em;
+        /* padding-left: 2px;
+        padding-right: 2px; */
+        font-size: 1.1em;
     }
     .about-wrap div {
         padding: 30px;
@@ -332,9 +332,9 @@ h1 {
         padding: 15px;
     }
     .noline {
-        padding-left: 40px;
-        padding-right: 40px;
-        font-size: 1.3em;
+        /* padding-left: 40px;
+        padding-right: 40px; */
+        font-size: 1.5em;
     }
     p {
         text-align: center;
@@ -354,8 +354,8 @@ h1 {
 
 @media (min-width: 1015px) {
     .noline {
-        padding-left: 60px;
-        padding-right: 60px;
+        /* padding-left: 60px;
+        padding-right: 60px; */
         font-size: 1.7em;
     }
     .fa {
@@ -415,10 +415,10 @@ h1 {
     .contain {
         padding: 25px;
     }
-    .noline {
+    /* .noline {
         padding-left: 90px;
         padding-right: 90px;
-    }
+    } */
     .about-wrap div {
         padding: 170px;
     }
