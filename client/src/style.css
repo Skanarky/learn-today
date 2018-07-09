@@ -160,8 +160,8 @@ img {
 }
 
 .nolineThree img:hover {
-    border-radius: 35%;
-    opacity: 0.5;
+    border-radius: 32px;
+    opacity: 0.6;
 }
 
 .buttons button {
