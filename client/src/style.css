@@ -166,7 +166,7 @@ img {
 
 .buttons button {
     background-color: rgba(218, 238, 253, 0.95);
-    border-radius: 25%;
+    border-radius: 15px;
     width: 92px;
     height: 36px;
     font-weight: bold;
@@ -176,8 +176,8 @@ img {
 
 .buttons button:hover {
     background-color: rgba(137, 195, 240, 0.95);
-    width: 95px;
-    height: 41px;
+    /* width: 95px;
+    height: 41px; */
     cursor: pointer;
 }
 
@@ -204,6 +204,7 @@ img {
     text-align: center;
     width: 90px;
     height: 30px;
+    border-radius: 10px;
 }
 
 ::placeholder {
@@ -301,10 +302,10 @@ h1 {
         height: 32px;
         font-size: .25em;
     }
-    .buttons button:hover {
+    /* .buttons button:hover {
         width: 73px;
         height: 34px;
-    }
+    } */
     .nolineTwo {
         width: 70px;
         height: 32px;
