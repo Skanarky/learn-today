@@ -150,7 +150,7 @@ img {
 }
 
 .singleItem .fa:hover {
-    font-size: 2em;
+    /* font-size: 2em; */
     cursor: pointer;
     color: rgba(199, 2, 2, 0.63);
 }
@@ -323,9 +323,9 @@ h1 {
     .buttons {
         flex-direction: row;
     }
-    .fa:hover {
+    /* .fa:hover {
         font-size: 2.3em;
-    }
+    } */
 }
 
 @media (min-width: 750px) {
@@ -362,9 +362,9 @@ h1 {
     .fa {
         font-size: 3.6em;
     }
-    .fa:hover {
+    /* .fa:hover {
         font-size: 3.9em;
-    }
+    } */
     .about-wrap div {
         padding: 150px;
     }
@@ -474,9 +474,9 @@ h1 {
     .fa {
         font-size: 4.3em;
     }
-    .fa:hover {
+    /* .fa:hover {
         font-size: 4.6em;
-    }
+    } */
     h2 {
         font-size: 1.3em;
     }
