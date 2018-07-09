@@ -42,14 +42,14 @@ footer {
     background-color: rgba(124, 191, 245, 0.21);
 }
 
-nav {
+/* nav {
     display: grid;
     grid-template-columns: 90% 10%;
-}
+} */
 
 .login {
     text-align: right;
-
+    visibility: hidden;
 }
 
 .login button:hover {

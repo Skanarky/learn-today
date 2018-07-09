@@ -65,16 +65,19 @@ class Header extends React.Component {
         }
         return (
             <header>
-                <nav>
+                <Link className="noline" to="/"><span>Home</span></Link>
+                <Link className="noline" to="/learn"><span>Let's Learn</span></Link>
+                <Link className="noline" to="/about"><span>About</span></Link>
+                {/* <nav>
                     <div className="navi">
                         <Link className="noline" to="/"><span>Home</span></Link>
                         <Link className="noline" to="/learn"><span>Let's Learn</span></Link>
                         <Link className="noline" to="/about"><span>About</span></Link>
                     </div>
                     <div className="login">
-                        <button /*onClick={this.toggleEdit}*/>Login</button>
+                        <button onClick={this.toggleEdit}>Login</button>
                     </div>
-                </nav>
+                </nav> */}
             </header>
         )
     }
