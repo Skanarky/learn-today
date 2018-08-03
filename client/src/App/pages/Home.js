@@ -4,7 +4,7 @@ const Home = (props) => {
     return (
         <section className="home-wrap">
             <div>
-                <h2>Welcome,</h2>
+                <h2>Welcome to</h2>
                 <h1>Let's Learn Today</h1>
             </div>
         </section>

@@ -424,8 +424,7 @@ h1 {
     .about-wrap div {
         padding: 170px;
     }
-    .home-wrap div,
-        {
+    .home-wrap div {
         padding: 210px;
     }
     .contain {
