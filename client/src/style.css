@@ -41,7 +41,7 @@ footer {
 header {
     /* box-shadow: 9px 0px 8px 7px rgb(162, 209, 245, 0.7); */
     background-color: rgba(124, 191, 245, 0.21);
-    box-shadow: 9px 0px 14px 10px rgb(124, 191, 245, 0.5);
+    box-shadow: 9px 0px 16px 10px rgb(124, 191, 245, 0.5);
     overflow: visible;
     z-index: +2;
 }
@@ -378,7 +378,8 @@ h1 {
         border-top: 10px solid transparent; 
         border-bottom: 10px solid transparent; 
     }
-    .learn-wrap {
+    .learn-wrap,
+    .about-wrap {
         padding-left: 60px;
     }
     .noline {
