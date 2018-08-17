@@ -196,7 +196,7 @@ img {
 }
 
 .buttons button {
-    background-color: rgba(218, 238, 253, 0.6);
+    background-color: rgba(237, 245, 251, 0.6);
     border-radius: 15px;
     width: 92px;
     height: 36px;
@@ -207,7 +207,8 @@ img {
 }
 
 .buttons button:hover {
-    background-color: rgba(230, 230, 235, 0.9);
+    background-color: rgba(211, 234, 251, 0.6);
+    /* background-color: rgba(230, 230, 235, 0.9); */
     cursor: pointer; 
     border: 2px solid rgba(199, 2, 2, 0.63);
 }
