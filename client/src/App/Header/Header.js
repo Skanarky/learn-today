@@ -42,7 +42,6 @@ class Header extends React.Component {
             return (
                 <header>
                     <nav>
-                        <div className="logoLT">LT</div>
                         <div className="navi">
 
                             <Link className="noline" to="/"><span>Home</span></Link>
@@ -67,9 +66,12 @@ class Header extends React.Component {
         }
         return (
             <header>
-                <Link className="noline" to="/"><span>Home</span></Link>
-                <Link className="noline" to="/learn"><span>Let's Learn</span></Link>
-                <Link className="noline" to="/about"><span>About</span></Link>
+                <div className="logoLT">LT</div>
+                <div>
+                    <Link className="noline" to="/"><span>Home</span></Link>
+                    <Link className="noline" to="/learn"><span>Let's Learn</span></Link>
+                    <Link className="noline" to="/about"><span>About</span></Link>
+                </div>
                 {/* <nav>
                     <div className="navi">
                         <Link className="noline" to="/"><span>Home</span></Link>
