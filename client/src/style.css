@@ -413,8 +413,8 @@ h1 {
     }
     .fa {
         font-size: 2.3em;
-        border-top: 10px solid transparent; 
-        border-bottom: 10px solid transparent;
+        border-top: 15px solid transparent; 
+        border-bottom: 15px solid transparent;
     }
     .fa:hover {
         font-size: 2.4em;
