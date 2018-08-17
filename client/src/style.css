@@ -37,7 +37,10 @@ footer {
     align-items: center;
     justify-content: space-evenly;
 }
-
+.logo {
+    width: 20%;
+    text-align: center;
+}
 .logoLT {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-transform: uppercase;
@@ -47,7 +50,6 @@ footer {
     border: 3px solid rgb(199, 2, 2, 0.63);
     border-radius: 20px;
     padding: 5px;
-    width: 20%;
 }
 .navWithLogo {
     width: 80%;
