@@ -41,8 +41,9 @@ footer {
 .logoLT {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-transform: uppercase;
-    font-size: .7em;
+    font-size: 1.3em;
     font-style: italic;
+    color: rgb(199, 2, 2, 0.63);
     border: 3px solid rgb(199, 2, 2, 0.63);
     border-radius: 20px;
     padding: 5px;
