@@ -196,20 +196,20 @@ img {
 }
 
 .buttons button {
-    background-color: rgba(218, 238, 253, 0.5);
+    background-color: rgba(218, 238, 253, 0.6);
     border-radius: 15px;
     width: 92px;
     height: 36px;
     font-weight: bold;
     text-align: center;
     font-size: .31em;
-    border: 1.5px solid rgba(199, 2, 2, 0.63);
+    border: 2.5px solid rgba(199, 2, 2, 0.63);
 }
 
 .buttons button:hover {
-    background-color: rgba(218, 238, 253, 0.8);
-    cursor: pointer;
-    color: rgba(199, 2, 2, 0.63); 
+    background-color: rgba(218, 232, 253, 0.8);
+    cursor: pointer; 
+    border: 1px solid rgba(199, 2, 2, 0.63);
 }
 
 .nolineTwo {
