@@ -49,7 +49,7 @@ footer {
     font-style: italic;
     color: rgb(199, 2, 2, 0.63);
     border: 3px solid rgb(199, 2, 2, 0.63);
-    border-radius: 20px;
+    border-radius: 50%;
     padding: 5px;
     text-align: center;
 }
@@ -406,6 +406,7 @@ h1 {
     }
     .logoLT {
         font-size: 2em;
+        padding: 7px;
     }
     .noline {
         /* padding-left: 60px;
