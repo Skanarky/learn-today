@@ -404,6 +404,9 @@ h1 {
     .about-wrap {
         padding-left: 60px;
     }
+    .logoLT {
+        font-size: 2em;
+    }
     .noline {
         /* padding-left: 60px;
         padding-right: 60px; */
