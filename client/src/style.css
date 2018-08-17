@@ -41,7 +41,7 @@ footer {
 header {
     /* box-shadow: 9px 0px 8px 7px rgb(162, 209, 245, 0.7); */
     background-color: rgba(124, 191, 245, 0.21);
-    box-shadow: 9px 0px 11px 10px rgb(124, 191, 245, 0.25);
+    box-shadow: 9px 0px 9px 10px rgb(124, 191, 245, 0.25);
     overflow: visible;
     z-index: +2;
 }
@@ -370,14 +370,16 @@ h1 {
         display: flex;
         flex-direction: column;
         /* align-items: center; */
-        justify-content: space-between;
+        /* justify-content: space-between; */
         position: fixed;
         top: 50%;
         left: 2%;
         transform: translateX(-50%) translateY(-50%);
+        padding-bottom: 15px;
+        padding-top: 15px;
     }
     .learn-wrap {
-        padding-left: 30px;
+        padding-left: 100px;
     }
     .noline {
         /* padding-left: 60px;
@@ -385,10 +387,10 @@ h1 {
         font-size: 1.7em;
     }
     .fa {
-        font-size: 1.5em;
+        font-size: 2em;
     }
     .fa:hover {
-        font-size: 1.6em;
+        font-size: 2.1em;
     }
     .about-wrap div {
         padding: 150px;
@@ -496,10 +498,10 @@ h1 {
         height: 95px;
     }
     .fa {
-        font-size: 2em;
+        font-size: 2.3em;
     }
     .fa:hover {
-        font-size: 2.15em;
+        font-size: 2.4em;
     }
     h2 {
         font-size: 1.3em;
