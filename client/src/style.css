@@ -207,7 +207,7 @@ img {
 }
 
 .buttons button:hover {
-    background-color: rgba(175, 216, 235, 0.9);
+    background-color: rgba(230, 230, 235, 0.9);
     cursor: pointer; 
     border: 2px solid rgba(199, 2, 2, 0.63);
 }
