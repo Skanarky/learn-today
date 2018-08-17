@@ -41,7 +41,7 @@ footer {
 header {
     /* box-shadow: 9px 0px 8px 7px rgb(162, 209, 245, 0.7); */
     background-color: rgba(124, 191, 245, 0.21);
-    box-shadow: 9px 0px 11px 10px rgb(124, 191, 245, 0.3);
+    box-shadow: 9px 0px 11px 10px rgb(124, 191, 245, 0.25);
     overflow: visible;
     z-index: +2;
 }
@@ -370,11 +370,14 @@ h1 {
         display: flex;
         flex-direction: column;
         /* align-items: center; */
-        justify-content: space-evenly;
+        justify-content: space-between;
         position: fixed;
         top: 50%;
-        left: 5%;
+        left: 2%;
         transform: translateX(-50%) translateY(-50%);
+    }
+    .learn-wrap {
+        padding-left: 30px;
     }
     .noline {
         /* padding-left: 60px;
@@ -382,11 +385,11 @@ h1 {
         font-size: 1.7em;
     }
     .fa {
-        font-size: 2.8em;
+        font-size: 1.5em;
     }
-    /* .fa:hover {
-        font-size: 3.9em;
-    } */
+    .fa:hover {
+        font-size: 1.6em;
+    }
     .about-wrap div {
         padding: 150px;
     }
@@ -493,11 +496,11 @@ h1 {
         height: 95px;
     }
     .fa {
-        font-size: 4.3em;
+        font-size: 2em;
     }
-    /* .fa:hover {
-        font-size: 4.6em;
-    } */
+    .fa:hover {
+        font-size: 2.15em;
+    }
     h2 {
         font-size: 1.3em;
     }
