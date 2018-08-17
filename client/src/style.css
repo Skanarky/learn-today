@@ -42,6 +42,10 @@ footer {
     background-color: rgba(124, 191, 245, 0.21);
 }
 
+header {
+    box-shadow: 4px 0px 3px 5px rgba(124, 191, 245, 0.21);
+}
+
 /* nav {
     display: grid;
     grid-template-columns: 90% 10%;
@@ -361,7 +365,7 @@ h1 {
         font-size: 1.7em;
     }
     .fa {
-        font-size: 3.6em;
+        font-size: 3.1em;
     }
     /* .fa:hover {
         font-size: 3.9em;
