@@ -43,7 +43,7 @@ footer {
 }
 
 header {
-    box-shadow: 4px 0px 3px 5px rgba(124, 191, 245, 0.21);
+    box-shadow: 5px 0px 3px 7px rgba(124, 191, 245, 0.21);
 }
 
 /* nav {
@@ -105,6 +105,7 @@ header {
     background-color: rgba(199, 30, 30, 0.55);
     display: grid;
     grid-template-rows: 30% 70%;
+    overflow: scroll;
 }
 
 .buttons {
@@ -116,7 +117,7 @@ header {
 
 .contain {
     text-align: center;
-    overflow: scroll;
+    /* overflow: scroll; */
     padding-top: 15px;
     padding-left: 28px;
     padding-right: 28px;
@@ -365,7 +366,7 @@ h1 {
         font-size: 1.7em;
     }
     .fa {
-        font-size: 3.1em;
+        font-size: 2.8em;
     }
     /* .fa:hover {
         font-size: 3.9em;
