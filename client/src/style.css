@@ -379,7 +379,7 @@ h1 {
         padding-top: 15px;
     }
     .learn-wrap {
-        padding-left: 100px;
+        padding-left: 60px;
     }
     .noline {
         /* padding-left: 60px;
@@ -387,10 +387,10 @@ h1 {
         font-size: 1.7em;
     }
     .fa {
-        font-size: 2em;
+        font-size: 2.3em;
     }
     .fa:hover {
-        font-size: 2.1em;
+        font-size: 2.4em;
     }
     .about-wrap div {
         padding: 150px;
@@ -498,10 +498,10 @@ h1 {
         height: 95px;
     }
     .fa {
-        font-size: 2.3em;
+        font-size: 2.6em;
     }
     .fa:hover {
-        font-size: 2.4em;
+        font-size: 2.7em;
     }
     h2 {
         font-size: 1.3em;
