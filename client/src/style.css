@@ -413,9 +413,13 @@ h1 {
         cursor: pointer; 
         border: 1px solid rgba(199, 2, 2, 0.63);
     }
+    
+    .noline span {
+        border: 1px solid transparent;
+    }
     .noline span:hover {
         color: rgba(199, 2, 2, 0.63);
-        border: 1px solid rgb(88, 88, 88, 0.7);
+        border-bottom: 1px solid rgb(88, 88, 88, 0.45);
         border-top: 2px solid rgba(199, 2, 2, 0.63);
     }
     .about-wrap div {
