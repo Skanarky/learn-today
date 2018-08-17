@@ -203,12 +203,13 @@ img {
     font-weight: bold;
     text-align: center;
     font-size: .31em;
+    border-top: 2px solid rgba(199, 2, 2, 0.63);
 }
 
 .buttons button:hover {
     background-color: rgba(218, 238, 253, 0.8);
     cursor: pointer;
-    color: rgba(199, 2, 2, 0.63);
+    color: rgba(199, 2, 2, 0.63); 
 }
 
 .nolineTwo {
