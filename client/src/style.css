@@ -47,6 +47,13 @@ footer {
     border: 3px solid rgb(199, 2, 2, 0.63);
     border-radius: 20px;
     padding: 5px;
+    width: 10%;
+}
+.navWithLogo {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 header {

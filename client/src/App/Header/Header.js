@@ -67,9 +67,9 @@ class Header extends React.Component {
         return (
             <header>
                 <div className="logoLT">LT</div>
-                <div>
+                <div className="navWithLogo">
                     <Link className="noline" to="/"><span>Home</span></Link>
-                    <Link className="noline" to="/learn"><span>Let's Learn</span></Link>
+                    <Link className="noline" to="/learn"><span>Learn</span></Link>
                     <Link className="noline" to="/about"><span>About</span></Link>
                 </div>
                 {/* <nav>
