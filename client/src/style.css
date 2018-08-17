@@ -100,10 +100,6 @@ header {
     letter-spacing: 1px;
 }
 
-.noline span:hover {
-    color: rgba(199, 2, 2, 0.63);
-}
-
 .home-wrap,
 .about-wrap,
 .learn-wrap {
@@ -196,21 +192,14 @@ img {
 }
 
 .buttons button {
-    background-color: rgba(237, 245, 251, 0.6);
+    background-color: rgba(245, 245, 251, 0.5);
     border-radius: 15px;
     width: 92px;
     height: 36px;
     font-weight: bold;
     text-align: center;
     font-size: .31em;
-    border: 1px solid rgba(199, 2, 2, 0.63);
-}
-
-.buttons button:hover {
-    background-color: rgba(211, 234, 251, 0.6);
-    /* background-color: rgba(230, 230, 235, 0.9); */
-    cursor: pointer; 
-    border: 2px solid rgba(199, 2, 2, 0.63);
+    /* border: 1px solid rgba(199, 2, 2, 0.63); */
 }
 
 .nolineTwo {
@@ -417,6 +406,16 @@ h1 {
     }
     .fa:hover {
         font-size: 2.8em;
+    }
+    .buttons button:hover {
+        background-color: rgba(124, 191, 245, 0.4);
+        /* background-color: rgba(230, 230, 235, 0.9); */
+        cursor: pointer; 
+        border: 1.5px solid rgba(199, 2, 2, 0.63);
+    }
+    .noline span:hover {
+        color: rgba(199, 2, 2, 0.63);
+        border-top: 2px solid rgba(199, 2, 2, 0.63);
     }
     .about-wrap div {
         padding: 150px;
