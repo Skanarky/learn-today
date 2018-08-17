@@ -386,7 +386,7 @@ h1 {
 
 @media (min-width: 1015px) {
     .wrapper {
-        grid-template-rows: 10% 90%;
+        grid-template-rows: 8.5% 91.5%;
     }
     footer {
         display: flex;
@@ -396,9 +396,7 @@ h1 {
         position: fixed;
         top: 50%;
         left: 2%;
-        transform: translateX(-50%) translateY(-50%);
-        border-top: 10px solid transparent; 
-        border-bottom: 10px solid transparent; 
+        transform: translateX(-50%) translateY(-50%); 
     }
     .learn-wrap,
     .about-wrap {
@@ -415,6 +413,8 @@ h1 {
     }
     .fa {
         font-size: 2.3em;
+        border-top: 10px solid transparent; 
+        border-bottom: 10px solid transparent;
     }
     .fa:hover {
         font-size: 2.4em;
