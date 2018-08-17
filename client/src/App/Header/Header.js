@@ -43,6 +43,7 @@ class Header extends React.Component {
                 <header>
                     <nav>
                         <div className="navi">
+                            <div className="logoLT">LT</div>
                             <Link className="noline" to="/"><span>Home</span></Link>
                             <Link className="noline" to="/learn"><span>Let's Learn</span></Link>
                             <Link className="noline" to="/about"><span>About</span></Link>
