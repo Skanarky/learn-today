@@ -44,7 +44,7 @@ footer {
 
 header {
     /* box-shadow: 9px 0px 8px 7px rgb(162, 209, 245, 0.7); */
-    box-shadow: 9px 0px 12px 7px rgb(124, 191, 245, 0.55);
+    box-shadow: 9px 0px 14px 9px rgb(124, 191, 245, 0.4);
     overflow: visible;
     z-index: +2;
 }
