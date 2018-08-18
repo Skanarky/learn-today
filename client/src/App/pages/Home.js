@@ -5,7 +5,7 @@ const Home = (props) => {
         <section className="home-wrap">
             <div>
                 <h2>Welcome to</h2>
-                <h1>Let's Learn Today</h1>
+                <h1>Learn Today</h1>
             </div>
         </section>
     )
