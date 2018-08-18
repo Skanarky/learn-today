@@ -4,7 +4,7 @@
 }
 
 .wrapper {
-    position: relative;
+    position: fixed;
     height: 100vh;
     display: grid;
     grid-template-rows: 10% 83% 7%;
@@ -415,11 +415,11 @@ h1 {
     }
     
     .noline span {
-        border: 1px solid transparent;
+        border-top: 2px solid transparent;
     }
     .noline span:hover {
         /* color: rgba(199, 2, 2, 0.63); */
-        border-bottom: 1px solid rgb(88, 88, 88, 0.35);
+        /* border-bottom: 1px solid rgb(88, 88, 88, 0.35); */
         border-top: 2px solid rgba(199, 2, 2, 0.63);
     }
     .about-wrap div {
