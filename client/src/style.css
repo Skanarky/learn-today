@@ -287,6 +287,7 @@ h1 {
     font-size: 0.9em;
     padding-left: 15px;
     font-style: italic;
+    opacity: .85;
 }
 
 .fa {
