@@ -11,11 +11,11 @@ class YoutubeList extends React.Component {
         const presentVideos = data.map((video, i) => <YoutubeVideo key={video.id.videoId} id={video.id.videoId} index={i} {...video.snippet}></YoutubeVideo>);
         if (loading) {
             return (
-                <div style={{ color: "rgba(218, 238, 253, 0.95)", paddingLeft: "15px", fontSize: ".9em" }}>... loading YouTube</div>
+                <div style={{ color: "rgba(199, 2, 2, 0.63)", paddingLeft: "15px", fontSize: ".9em" }}>... loading YouTube</div>
             )
         } else if (errMsg) {
             return (
-                <div style={{ color: "rgba(218, 238, 253, 0.95)", paddingLeft: "15px", fontSize: ".9em" }}>{errMsg}</div>
+                <div style={{ color: "rgba(199, 2, 2, 0.63)", paddingLeft: "15px", fontSize: ".9em" }}>{errMsg}</div>
             )
         } else {
             return (
