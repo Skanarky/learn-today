@@ -419,6 +419,11 @@ h1 {
     
     .noline span {
         border-top: 2px solid transparent;
+        -webkit-transition: border-top .5s;
+        -o-transition: border-top .5s;
+        -moz-transition: border-top .5s;
+        transition: border-top .5s;
+        transition-timing-function: ease;
     }
     .noline span:hover {
         /* color: rgba(199, 2, 2, 0.63); */
