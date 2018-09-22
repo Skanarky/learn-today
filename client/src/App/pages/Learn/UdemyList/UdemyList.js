@@ -12,11 +12,11 @@ class UdemyList extends React.Component {
         const presentCourses = data.map((course, i) => <UdemyCourse key={course.id} id={course.id} index={i} {...course}></UdemyCourse>);
         if (loading) {
             return (
-                <div style={{ color: "rgba(218, 238, 253, 0.95)", paddingLeft: "15px", fontSize: ".9em" }}>... loading Udemy</div>
+                <div style={{ color: "rgba(199, 2, 2, 0.63)", paddingLeft: "15px", fontSize: ".9em" }}>... loading Udemy</div>
             )
         } else if (errMsg) {
             return (
-                <div style={{ color: "rgba(218, 238, 253, 0.95)", paddingLeft: "15px", fontSize: ".9em" }}>{errMsg}</div>
+                <div style={{ color: "rgba(199, 2, 2, 0.63)", paddingLeft: "15px", fontSize: ".9em" }}>{errMsg}</div>
             )
         } else {
             return (
