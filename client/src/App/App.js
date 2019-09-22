@@ -5,6 +5,7 @@ import Video from "./Video/Video";
 
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
+import FooterPrvcy from "./FooterPrvcy/FooterPrvcy";
 
 import About from "./pages/About";
 import Home from "./pages/Home";
@@ -21,6 +22,7 @@ const App = () => {
                 <Route path="/about" component={About}></Route>
             </Switch>
             <Footer></Footer>
+            <FooterPrvcy></FooterPrvcy>
         </div>
     )
 }

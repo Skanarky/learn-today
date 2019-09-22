@@ -37,6 +37,38 @@ footer {
     align-items: center;
     justify-content: space-evenly;
 }
+.ftr-prvcy {
+    position: fixed;
+    align-items: center;
+    padding: 8px 6% 8px 6%;
+    background-color: rgba(128, 128, 128);
+    border-radius: 12px;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    bottom: 0;
+    left: 2%;
+    min-height: 50px;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.ftr-prvcy-btn-close {
+    background-color: transparent;
+    border-color: lightgray;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.ftr-prvcy-btn-gotit {
+    background-color: rgba(124, 191, 245, 0.21);
+    border-color: transparent;
+    color: whitesmoke;
+    border-color: gray;
+    padding: 5px;
+    border-radius: 7px;
+    cursor: pointer;
+}
 .logo {
     width: 20%;
     display: flex;
@@ -309,8 +341,7 @@ h1 {
     .about-wrap div {
         padding: 30px;
     }
-    .home-wrap div,
-        {
+    .home-wrap div {
         padding: 50px;
     }
     h2 {
@@ -390,6 +421,9 @@ h1 {
         left: 2%;
         transform: translateX(-50%) translateY(-50%); 
     }
+    .ftr-prvcy {
+        background-color: rgba(128, 128, 128, 0.7);
+    }
     .learn-wrap,
     .about-wrap {
         padding-left: 60px;
@@ -408,7 +442,7 @@ h1 {
         border-bottom: 15px solid transparent;
     }
     .fa:hover {
-        font-size: 2.75em;
+        font-size: 2.4em;
     }
     .buttons button:hover {
         background-color: rgba(124, 191, 245, 0.3);
@@ -433,8 +467,7 @@ h1 {
     .about-wrap div {
         padding: 150px;
     }
-    .home-wrap div,
-        {
+    .home-wrap div {
         padding: 180px;
     }
     .contain {
@@ -523,8 +556,7 @@ h1 {
     .about-wrap div {
         padding: 300px;
     }
-    .home-wrap div,
-        {
+    .home-wrap div {
         padding: 400px;
     }
     .contain {
@@ -555,8 +587,7 @@ h1 {
     .about-wrap div {
         padding: 400px;
     }
-    .home-wrap div,
-        {
+    .home-wrap div {
         padding: 530px;
     }
     p {

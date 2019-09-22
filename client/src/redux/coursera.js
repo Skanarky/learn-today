@@ -4,7 +4,7 @@ const courseraUrl = "https://vschool-cors.herokuapp.com?url=https://www.coursera
 
 const initialState = {
     data: [],
-    loading: true,
+    loading: false,
     errMsg: ""
 }
 
@@ -22,6 +22,11 @@ const courseraReducer = (state = initialState, action) => {
                 errMsg: action.errMsg,
                 loading: false
             }
+        case "LOAD":
+            return {
+                ...state,
+                loading: true
+            }
         default:
             return state
     }
@@ -32,6 +37,9 @@ const courseraReducer = (state = initialState, action) => {
 
 export const getCoCourse = () => {
     return dispatch => {
+        dispatch({
+            type: "LOAD"
+        });
         axios.get(courseraUrl)
             .then(response => {
                 // console.log(response.data);
