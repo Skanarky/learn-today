@@ -2,7 +2,7 @@ import axios from "axios";
 
 const initialState = {
     data: [],
-    loading: true,
+    loading: false,
     errMsg: ""
 }
 
